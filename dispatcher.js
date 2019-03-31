@@ -11,7 +11,7 @@ const producerEvents = Producer.create({
 })
 
 const producerRanking = Producer.create({
-  queueUrl: `https://sqs.us-east-1.amazonaws.com/374047294805/daznbet-events`,
+  queueUrl: `https://sqs.us-east-1.amazonaws.com/374047294805/daznbet-ranking`,
   region: 'us-east-1'
 })
 
