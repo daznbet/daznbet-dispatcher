@@ -1,0 +1,21 @@
+{
+  "name": "daznbet-dispatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dispacher.js",
+  "scripts": {
+    "start": "node dispatcher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daznbet/daznbet-dispatcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.24.0",
+    "sqs-producer": "^1.6.3",
+    "uuid": "^3.3.2"
+  }
+}
